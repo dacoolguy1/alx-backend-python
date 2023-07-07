@@ -2,7 +2,7 @@
 import math
 
 def floor(n: float) -> int:
-  """Floor of a float number
+    """Floor of a float number
 
     Args:
         n (float): Float integer to get its floor
