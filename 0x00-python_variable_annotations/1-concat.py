@@ -13,4 +13,3 @@ def concat(str1: str, str2: str) -> str:
         (str) - concatenated string
     """
     return ''.join([str1, str2])
-  
