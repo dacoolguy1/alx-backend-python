@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-import math
+"""Write a type-annotated function floor"""
+
 
 def floor(n: float) -> int:
     """Floor of a float number
@@ -10,4 +11,4 @@ def floor(n: float) -> int:
     Return:
         (int): floor of the float
     """
-    return math.floor(n)
+    return int(n)
