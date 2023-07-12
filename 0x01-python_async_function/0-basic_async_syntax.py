@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
+"""Write an asynchronous coroutine that takes in an integer argument"""
 import random
 import asyncio
-"""Write an asynchronous coroutine that takes in an integer argument"""
 
 
 async def wait_random(max_delay=10):
