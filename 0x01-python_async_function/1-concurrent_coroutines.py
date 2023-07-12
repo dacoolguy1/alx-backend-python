@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 from test import wait_random
 import asyncio
-
 """Write an async args that takes in two argument"""
 
 
