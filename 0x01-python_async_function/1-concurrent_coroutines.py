@@ -4,7 +4,10 @@ import asyncio
 """Write an async args that takes in two argument"""
 
 
-async def wait_n(n, max_delay):
+wait_random = __import__('0-basic_async_syntax').wait_random
+
+
+async def wait_n(n: int, max_delay: int) -> List[float]:
     """Asynchronous coroutine that waits for a random number
    of seconds between n and max_delay.
 
