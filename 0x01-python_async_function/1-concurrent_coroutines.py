@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Write an async args that takes in two argument"""
-from test import wait_random
 import asyncio
 from typing import List
 
