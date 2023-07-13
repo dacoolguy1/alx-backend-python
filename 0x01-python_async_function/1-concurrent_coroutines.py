@@ -17,7 +17,7 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
 
     Returns:
         The list of all delay.
-    """ # gather with an unpacked list of awaitables
+    """  # gather with an unpacked list of awaitables
     delays: List[float] = []
     for _ in range(n):
         delay: float = await wait_random(max_delay)
