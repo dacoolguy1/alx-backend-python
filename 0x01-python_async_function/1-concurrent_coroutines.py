@@ -10,15 +10,15 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """Asynchronous coroutine that waits for a random number
-   of seconds between n and max_delay.
+        of seconds between n and max_delay.
 
-  Args:
-    n: The number of times it spins
-    max_delay: The maximum number of seconds to wait.
+    Args:
+        n: The number of times it spins
+        max_delay: The maximum number of seconds to wait.
 
-  Returns:
-    The list of all delay.
-  """
+    Returns:
+        The list of all delay.
+    """
     delays: List[float] = []
     for _ in range(n):
         delay: float = await wait_random(max_delay)
