@@ -17,4 +17,3 @@ async def measure_time(n: int, max_delay: int) -> float:
     Returns:
         total_time/n
     """
-    return (total_time/n)
