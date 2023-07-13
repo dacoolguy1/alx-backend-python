@@ -6,8 +6,8 @@ import asyncio
 
 
 async def wait_n(n, max_delay):
-   """
-  Asynchronous coroutine that waits for a random number of seconds between n and max_delay.
+    """Asynchronous coroutine that waits for a random number
+   of seconds between n and max_delay.
 
   Args:
     n: The number of times it spins
@@ -16,10 +16,9 @@ async def wait_n(n, max_delay):
   Returns:
     The list of all delay.
   """
-#    wait_random = __import__('test.py').wait_random
-   delays = []
-   for _ in range(n):
-      delay = await wait_random(max_delay)
-      delays.append(delay)
-   delays.sort
-   return delays
+    delays = []
+    for _ in range(n):
+        delay = await wait_random(max_delay)
+        delays.append(delay)
+    delays.sort
+    return delays
