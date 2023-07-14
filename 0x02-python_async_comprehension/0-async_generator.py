@@ -6,7 +6,7 @@ import random
 from typing import Generator
 
 
-async def async_generator():
+async def async_generator() -> Generator[float, None, None]:
     """A coroutine that loops 10 times asynchronously
 
     Args:
