@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
+"""Learning unittesting in python
+"""
 import unittest
 from utils import access_nested_map
 from parameterized import parameterized
-"""Learning unittesting in python
-"""
 
 
 class TestAccessnestedMap(unittest.TestCase):
